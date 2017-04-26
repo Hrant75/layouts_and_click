@@ -1,0 +1,137 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/m_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:padding="20dp"
+        android:onClick="onClick">
+        <TextView
+            android:id="@+id/m_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/m_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="John Smith"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/m_text1"/>
+        <TextView
+            android:id="@+id/m_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/m_pic"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="1dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:contentDescription="ewrwerwe"-->
+            <!--app:srcCompat="@drawable/captainjamessmith" -->
+            <!--/>-->
+        <TextView
+            android:id="@+id/m_pic"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimaryDark"
+            android:text="This is the picture of John"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_marginTop="1dp"
+            android:padding="30dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/f_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="onClick">
+        <TextView
+            android:id="@+id/f_text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Full Name"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:id="@+id/f_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sarah Jonson"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/f_text1"/>
+        <TextView
+            android:id="@+id/f_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="F"
+            android:textColor="#ffffff"
+            android:textSize="40sp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!--<ImageView-->
+            <!--android:id="@+id/f_pic"-->
+            <!--android:layout_width="200dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_marginTop="1dp"-->
+            <!--android:visibility="gone"-->
+            <!--android:contentDescription="sdfsd"-->
+            <!--app:srcCompat="@drawable/sarahjonson" />-->
+        <TextView
+            android:id="@+id/f_pic"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:background="@color/colorAccent"
+            android:text="This is the picture of Sarah"
+            android:textColor="#ffffff"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:padding="30dp"
+            android:layout_marginTop="1dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="gone"/>
+    </RelativeLayout>
+</LinearLayout>
