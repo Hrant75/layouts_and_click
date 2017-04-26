@@ -75,6 +75,7 @@ import android.widget.RelativeLayout;
 //    }
 //}
 
+
 //      --------------------3th method--------------------------------------
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
     protected void onCreate(Bundle savedInstanceState) {
